@@ -1,6 +1,3 @@
-
-Sure! Here's a sample README file you can use for your Airbnb clone project on GitHub. Feel free to adjust any details as needed:
-
 Airbnb Clone Backend
 This is the backend of an Airbnb clone application built using Node.js, Express, and MongoDB. It includes essential features like user authentication, hotel management, review and rating system, and CRUD operations for managing users, hotels, and reviews. The project is designed to simulate the functionality of an Airbnb-like platform without the frontend.
 
