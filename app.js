@@ -69,7 +69,7 @@ app.use((req,res,next)=>{
 
 //     let registeredUser = await User.register(fakeUser,"helloworld");
 //     res.send(registeredUser);
- // so this is the completed nodejs application
+ // so this is the completed nodejs application done
 // })
 
 main()
