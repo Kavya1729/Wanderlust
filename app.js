@@ -34,7 +34,14 @@ const sessionOptions = {
 };
 
 app.get("/", (req, res) => {
-    res.send("Hi, I am root");
+    res.send(`
+        <html>
+            <body>
+                <h1>Hi, Click Below To Explore More!!!</h1>
+                <button onclick="window.location.href='/listings'">Go to Listings</button>
+            </body>
+        </html>
+    `);
 });
 
 app.use(session(sessionOptions));
@@ -62,6 +69,7 @@ app.use((req,res,next)=>{
 
 //     let registeredUser = await User.register(fakeUser,"helloworld");
 //     res.send(registeredUser);
+ // so this is the completed nodejs application done
 // })
 
 main()

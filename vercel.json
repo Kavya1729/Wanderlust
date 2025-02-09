@@ -1,0 +1,26 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "app.js",
+            "use": "@vercel/node",
+            "config": {
+                "maxDuration": 10
+            }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/listings",
+            "dest": "/listings"
+        },
+        {
+            "src": "/listings/(.*)/reviews",
+            "dest": "/listings/:id/reviews"
+        },
+        {
+            "src": "/",
+            "dest": "/"
+        }
+    ]
+}
